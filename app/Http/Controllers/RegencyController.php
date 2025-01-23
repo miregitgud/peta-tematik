@@ -26,4 +26,14 @@ class RegencyController extends Controller
             'regencies' => $regencies
         ]);
     }
+
+    public function penyakit()
+    {
+        $regencies = Regency::all();
+
+        return view('regency.penyakit', [
+            'title' => 'Penyakit | DKI Jakarta',
+            'regencies' => $regencies
+        ]);
+    }
 }

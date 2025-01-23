@@ -5,3 +5,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [RegencyController::class, 'populasi'])->name('regency.index');
 Route::get('/luas', [RegencyController::class, 'luas'])->name('regency.luas');
+Route::get('/penyakit', [RegencyController::class, 'penyakit'])->name('regency.penyakit');

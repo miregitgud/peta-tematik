@@ -18,6 +18,9 @@
                     <a class="nav-link {{ Route::is('regency.luas') ? 'active fw-bold' : '' }}"
                         href="{{ route('regency.luas') }}">Luas</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ Route::is('regency.penyakit') ? 'active fw-bold' : '' }}"
+                        href="{{ route('regency.penyakit') }}">Penyakit</a>
             </ul>
         </div>
     </div>
