@@ -11,10 +11,12 @@
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                </li>
-                <li class="nav-item">
                     <a class="nav-link {{ Route::is('regency.index') ? 'active fw-bold' : '' }}"
                         href="{{ route('regency.index') }}">Populasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ Route::is('regency.luas') ? 'active fw-bold' : '' }}"
+                        href="{{ route('regency.luas') }}">Luas</a>
                 </li>
             </ul>
         </div>

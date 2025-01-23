@@ -16,4 +16,14 @@ class RegencyController extends Controller
             'regencies' => $regencies
         ]);
     }
+
+    public function luas()
+    {
+        $regencies = Regency::all();
+
+        return view('regency.luas', [
+            'title' => 'Luas Wilayah | DKI Jakarta',
+            'regencies' => $regencies
+        ]);
+    }
 }
