@@ -11,7 +11,7 @@
         var map = L.map("map").setView([-6.2179898, 106.804595], 11);
         L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://jakarta.bps.go.id/id/statistics-table/2/MTI3MCMy/jumlah-penduduk-menurut-kabupaten-kota-di-provinsi-dki-jakarta-html" target="_blank">BPS DKI Jakarta</a>',
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://jakarta.bps.go.id/id/statistics-table/2/MTI3MCMy/jumlah-penduduk-menurut-kabupaten-kota-di-provinsi-dki-jakarta-html" target="_blank">Data Populasi BPS DKI Jakarta</a>',
         }).addTo(map);
 
         console.log(@json($regencies));
