@@ -20,7 +20,7 @@ return new class extends Migration
             $table->double('longitude')->default(0)->nullable(false);
             $table->double('luas')->default(0)->nullable(false);
             $table->bigInteger('populasi')->default(0)->nullable(false);
-            $table->integer('kekerasan')->default(0)->nullable(false);
+            $table->integer('penyakit')->default(0)->nullable(false);
             $table->enum('type_polygon', ['Polygon', 'MultiPolygon'])->default('Polygon');
             $table->longText('polygon')->nullable(true);
             $table->timestamps();

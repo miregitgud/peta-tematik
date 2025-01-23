@@ -23,7 +23,7 @@ class RegencySeeder extends Seeder
                 'longitude' => 106.552710,
                 'luas' => 10.73,
                 'populasi' => 28523,
-                'kekerasan' => 0,
+                'penyakit' => 0,
             ],
             [
                 'id' => 3171,
@@ -34,7 +34,7 @@ class RegencySeeder extends Seeder
                 'longitude' => 106.813500,
                 'luas' => 144.94,
                 'populasi' => 2235606,
-                'kekerasan' => 0,
+                'penyakit' => 16,
             ],
             [
                 'id' => 3172,
@@ -45,7 +45,7 @@ class RegencySeeder extends Seeder
                 'longitude' => 106.884000,
                 'luas' => 185.54,
                 'populasi' => 3079618,
-                'kekerasan' => 0,
+                'penyakit' => 46,
             ],
             [
                 'id' => 3173,
@@ -56,7 +56,7 @@ class RegencySeeder extends Seeder
                 'longitude' => 106.840300,
                 'luas' => 47.56,
                 'populasi' => 1049314,
-                'kekerasan' => 0,
+                'penyakit' => 35,
             ],
             [
                 'id' => 3174,
@@ -67,7 +67,7 @@ class RegencySeeder extends Seeder
                 'longitude' => 106.767300,
                 'luas' => 125.00,
                 'populasi' => 2470054,
-                'kekerasan' => 0,
+                'penyakit' => 1,
             ],
             [
                 'id' => 3175,
@@ -78,7 +78,7 @@ class RegencySeeder extends Seeder
                 'longitude' => 106.882300,
                 'luas' => 147.21,
                 'populasi' => 1808985,
-                'kekerasan' => 0,
+                'penyakit' => 5,
             ],
         ]);
     }
