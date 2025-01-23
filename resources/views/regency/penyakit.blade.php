@@ -1,8 +1,10 @@
 @extends('main')
 @section('content')
     <div class="container">
-        <h1 class="text-center my-3">Penyakit HIV/AIDS DKI Jakarta</h1>
-        <div id="map" style="height: 500px;"></div>
+        <div class="card mt-4" style="border-radius: 10px; border: 1px solid #000000; box-shadow: 2px 2px 2px 2px #888888;">
+            <h1 class="text-center my-3">Penyakit HIV/AIDS DKI Jakarta</h1>
+            <div id="map" style="height: 500px;"></div>
+        </div>
     </div>
 
 
@@ -131,7 +133,7 @@
                 grades = [0, 5, 10, 15, 20, 30, 40, 50],
                 labels = [];
 
-            div.innerHTML += '<h4>penyakit</h4>'
+            div.innerHTML += '<h4>Penyakit HIV/AIDS</h4>'
             // loop through our density intervals and generate a label with a colored square for each interval
             for (var i = 0; i < grades.length; i++) {
                 div.innerHTML +=

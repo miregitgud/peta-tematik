@@ -1,8 +1,10 @@
 @extends('main')
 @section('content')
     <div class="container">
-        <h1 class="text-center my-3">Populasi DKI Jakarta</h1>
-        <div id="map" style="height: 500px;"></div>
+        <div class="card mt-4" style="border-radius: 10px; border: 1px solid #000000; box-shadow: 2px 2px 2px 2px #888888;">
+            <h1 class="text-center my-3">Populasi DKI Jakarta</h1>
+            <div id="map" style="height: 500px;"></div>
+        </div>
     </div>
 
 
